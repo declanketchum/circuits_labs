@@ -46,7 +46,7 @@ while i<length(x),
         b=(sumY-m*sumX)/N;
         R2=SXY*SXY/(SXX*SYY);
     end
-    if ((N>10) & (abs(m)>abs(mmax))),
+    if ((N>5) & (abs(m)>abs(mmax))),
         first=i;
         last=j;
         mmax=m;
